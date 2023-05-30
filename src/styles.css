@@ -1,34 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
-
-html, body {
-    height: 100%;
-  }
-  
-  body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow-y: hidden;
-    background-image: url(https://images.unsplash.com/photo-1664388519483-9fdcbdba13a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
-    font-family: 'Rubik', sans-serif; 
-  }
-  
-#app{
-    text-align: center;
+html,
+body {
+	height: 100%;
 }
 
-.App{
-  max-width: 900px;
-  margin: 40px auto;
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow-y: hidden;
+	background-image: url(https://images.unsplash.com/photo-1652482861853-e9d8ba09f1dc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80);
+	height:100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	font-family: "Rubik", sans-serif;
 }
 
-
-
-.container{
-  background-color:papayawhip;
-  width: 20rem;
-  padding: 2rem;
-  border-radius: 1rem;
+h1{
+	font-size: 55px;
+	color:bisque;
+	text-shadow: 5px 5px hsl(191, 100%, 5%);
+	margin-bottom: 10px;
 }
 
+#app {
+	text-align: center;
+}
+
+.screen {
+	height: 5rem;
+	margin-bottom: 3rem;
+	background: white;
+	border-radius: 1rem;
+	box-shadow: 0px 0px 0px 3px rgba(255, 199, 164, 0.4);
+
+}
+
+.container {
+	background-color: papayawhip;
+	width: 20rem;
+	padding: 2rem;
+	border-radius: 1rem;
+	box-shadow: 11px 10px 0px 3px rgba(0,0,0,0.75);
+
+}
+
+.teclado{
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	gap: 0.5rem;
+}
+
+.boton{
+	background:rgb(255, 249, 241);
+	height: 4rem;
+	padding: 10px;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor:pointer;
+	color:rgb(0, 0, 0);
+	font-size: 1.8rem;
+	font-family:"Rubik", sans-serif;
+}
+
+.boton:hover{
+	background: rgba(0, 0, 0, 0.02);
+}
+
+.igual{
+	background: rgb(165, 75, 42);
+	grid-column: 3/5;
+	color: antiquewhite;
+}
+
+.igual:hover{
+	background: rgb(141, 64, 36);
+	color: antiquewhite;
+}
+
+.ope{
+	background: rgb(255, 232, 203);
+}
+
+.ope:hover{
+	background: rgb(214, 187, 155);
+}

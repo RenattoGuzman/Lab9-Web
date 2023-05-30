@@ -27,6 +27,7 @@
     "loader": "^2.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-textfit": "^1.1.1",
     "style": "^0.0.3",
     "style-loader": "^3.3.2",
     "url-loader": "^4.1.1",
@@ -37,6 +38,7 @@
   "devDependencies": {
     "clean-webpack-plugin": "^4.0.0",
     "css-minimizer-webpack-plugin": "^5.0.0",
+    "eslint": "^8.41.0",
     "file-loader": "^6.2.0",
     "html-loader": "^4.2.0",
     "mini-css-extract-plugin": "^2.7.5",
